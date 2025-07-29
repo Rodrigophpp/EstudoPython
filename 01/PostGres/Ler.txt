@@ -1,0 +1,4 @@
+
+#Subir serviço postgres no Docker
+
+docker run --name BaseVendas -p 5782:5432 -e POSTGRES_USER=Postgres -e POSTGRES_PASSWORD=Postgres -e POSTGRES_DB=Vendas -d postgres:16.1
